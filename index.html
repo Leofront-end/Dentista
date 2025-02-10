@@ -8,28 +8,41 @@
     <link rel="stylesheet" href="style.css">
     <title>Dentista</title>
 </head>
-<body class="text-bg-dark">
-    <header class="navbar navbar-expand-md bg-primary navbar-dark py-2 shadow sticky-top">
-        <section class="container">
+<body class="text-bg-white">
+    <header class="navbar navbar-expand-md bg-primary  navbar-dark py-2 shadow sticky-top">
+        <nav class="container">
             <a href="#" class="navbar-brand">
                 <img src="https://picsum.photos/50/50?random=1" class="rounded-circle" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="menuNav">
-                <nav class="navbar-nav nav nav-underline">
-                    <a href="#" class="nav-link">Home</a>
-                    <a href="#servicos" class="nav-link">Serviços</a>
-                    <a href="#depoimento" class="nav-link">Depoimentos</a>
-                    <a href="#antesEDepois" class="nav-link">Antes e Depois</a>
-                </nav>
+            <div class="collapse navbar-collapse justify-content-end " id="menuNav">
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicos" class="nav-link text-white">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#depoimento" class="nav-link text-white">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#antesEDepois" class="nav-link text-white">Antes e Depois</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                            <i class="bi bi-moon-stars-fill" id="corFundo"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section>
+        </nav>
     </header>
 
-    <main class="container my-3">
-        <section class="carousel slide shadow" data-bs-ride="carousel" id="home">
+    <main data-bs-spy="scroll" data-bs-smooth-scroll="true" class="container my-3">
+        <section class="carousel slide carousel-dark shadow" data-bs-ride="carousel" id="home">
             <section class="carousel-indicators">
                 <button class="active" data-bs-target="#home" data-bs-slide-to="0"></button>
                 <button class="" data-bs-target="#home" data-bs-slide-to="1"></button>
@@ -83,9 +96,9 @@
             <p class="text-center fw-bolder fs-1">Depoimentos</p>
             <section class="carousel slide carousel-dark bg-trasparent d-none d-md-block" data-bs-ride="carousel" id="depoimentos">
                 <section class="carousel-indicators">
-                    <button class="active" data-bs-target="#depoimentos" data-bs-slide-to="0"></button>
-                    <button class="" data-bs-target="#depoimentos" data-bs-slide-to="1"></button>
-                    <button class="" data-bs-target="#depoimentos" data-bs-slide-to="2"></button>
+                    <button class="active bg-black" data-bs-target="#depoimentos" data-bs-slide-to="0"></button>
+                    <button class="bg-black" data-bs-target="#depoimentos" data-bs-slide-to="1"></button>
+                    <button class="bg-black" data-bs-target="#depoimentos" data-bs-slide-to="2"></button>
                 </section>
                 <section class="carousel-inner ">
                     <section class="carousel-item active" data-bs-interval="5000">
