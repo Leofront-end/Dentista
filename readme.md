@@ -24,6 +24,7 @@ Este projeto é uma página web para uma clínica odontológica, com informaçõ
 As imagens utilizadas no projeto são de fontes livres de direitos autorais ou licenciadas adequadamente. 
 
 -[Freepik](https://br.freepik.com/)
+-[Pixlr](https://pixlr.com/br/)
 
 ## Deploy
 Você pode acessar o projeto ao vivo por meio do seguinte link: [Página da Clínica Odontológica](https://dentista-roan.vercel.app/)
